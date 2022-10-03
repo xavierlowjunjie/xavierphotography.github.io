@@ -1,0 +1,41 @@
+body {
+  background-color: darkgrey;
+}
+
+.custom-jumbotron {
+  background-color: lightslategray;
+  color: whitesmoke;
+
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+#jumbotron-home {
+  background-image: url(./img/header.JPG);
+}
+#jumbotron-gallery {
+  background-image: url(./img/carousel3.JPG);
+}
+
+.navbar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  margin-right: 30px;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 5px;
+}
+
+#gallery-text {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
